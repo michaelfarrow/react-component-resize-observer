@@ -1,0 +1,25 @@
+.wrapper {
+  max-width: 40em;
+}
+
+.expandable {
+  height: 5em;
+  background-color: red;
+  cursor: pointer;
+  transition-property: height;
+  transition-duration: 2s;
+}
+
+.expandable.expandable--expanded {
+  height: 20em;
+}
+
+.size {
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+.size.size--updated {
+  background-color: #ffe1cc;
+  transition-duration: 0s;
+}
